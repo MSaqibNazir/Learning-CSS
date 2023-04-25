@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+}
+
+.menu {
+  background-color: #800054;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='97.8' stroke-opacity='0.05' %3E%3Ccircle fill='%23800054' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23790454' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23720754' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%236b0a54' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23640d54' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%235d0f53' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23571152' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23501251' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2349134f' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%2342144d' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%233b144b' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23351449' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%232e1446' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23281443' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23211340' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%231b123d' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2315113a' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230F1036' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #cfc6dc;
+}
+.menu a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+.menu li {
+  padding: 1.5rem;
+}
+.menu li:hover {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.menu .fas {
+  margin-right: 1rem;
+  width: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 20%;
+    height: 100vh;
+  }
+}
