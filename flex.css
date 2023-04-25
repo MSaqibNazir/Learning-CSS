@@ -15,9 +15,10 @@ body {
 
 .box {
   flex-basis: 6rem;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex: 1 1 15rem /* ggrow shrink / basis & basis */;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  /* flex: 1 1 15rem  */
+  /* ggrow shrink / basis & basis */
   width: 5rem;
   height: 5rem;
   background: gold;
