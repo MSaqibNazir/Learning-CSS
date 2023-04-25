@@ -1,0 +1,35 @@
+.bgdishes
+{
+background:url('css-sprite-combined.2.png') 0px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bglanding
+{
+background:url('css-sprite-combined.2.png') -100px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bgrocketship
+{
+background:url('css-sprite-combined.2.png') -200px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bgsaturn
+{
+background:url('css-sprite-combined.2.png') -300px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bgufo
+{
+background:url('css-sprite-combined.2.png') -400px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+

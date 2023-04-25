@@ -1,0 +1,134 @@
+/* *,
+*::after,
+*::before {
+  /* universal doesnt effect on psuedo elements 
+  box-sizing: border-box;
+} */
+
+/* 62.5% of 16px = 10px */
+/* html {
+  font-size: 62.5%;
+}
+  */
+
+/* body {
+  margin: 10px;
+} */
+
+.boxold {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  /* box-sizing: border-box; default value is content box */
+  display: inline-block;
+  overflow: hidden auto; /* x axis & y axis*/
+}
+
+.boxold ::before {
+  content: "Hello";
+}
+
+/*      <!-- Measurments -->      */
+
+/* relative = that are relavant to their parent */
+/* 
+%    | Relavant to the size of contianer 
+
+vw   | relative to the viewport
+vh 
+
+em   | relative to the font size
+rem  
+*/
+
+.box-measur {
+  /* width: 50vw;
+  height: 100vh; */
+  /* em 10 times of font size of the current element 
+if this element has not any font than it inherit from the parent (body) element, 
+if body havent too, it inherit from html, and html default by broweser 
+font medium (recommended) is 16*/
+
+  /* width: 10em; is mein problem hoti hai is liye rem use kren */
+  width: 15rem; /* rem = 10 x font size of the root element ie 16
+  is k liye html ka font size 62.5 kr do taky wo 16 => 10 ban jay*/
+  height: 100vh;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+
+/* Positioning */
+
+.boxes {
+  border: 3px solid lightblue;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one {
+  background-color: gold;
+}
+
+.box-two {
+  background-color: tomato;
+  position: absolute;
+  top: 0rem;
+  left: 2rem;
+  right: 2rem;
+  z-index: 999;
+  width: auto;
+}
+
+.box-three {
+  background-color: dodgerblue;
+}
+
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+/* ================================================================= */
+
+/* Floating */
+
+.tweet {
+  border: 3px solid lightgrey;
+  overflow: hidden;
+}
+
+.clearfix ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 0.6rem;
+}
+
+.clear {
+  clear: both;
+}
+p {
+  margin-bottom: 0;
+}

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box1 {
+  background: gold;
+  padding: 10px;
+}
+
+.box2 {
+  background: dodgerblue;
+  padding: 10px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+  .box2 {
+    background-color: orange;
+  }
+}
+
+@media print {
+  .container {
+    font-size: 12pt;
+    padding: 0.5cm;
+  }
+}
