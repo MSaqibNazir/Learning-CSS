@@ -43,3 +43,14 @@ body {
     height: 100vh;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .menu {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .menu li {
+    text-align: center;
+  }
+}
